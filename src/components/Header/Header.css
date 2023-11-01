@@ -1,0 +1,20 @@
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMenu a {
+    text-decoration: none;
+    margin-left: 25px;
+    background-color: salmon;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.navMenu a:hover {
+    background-color: rgb(114, 36, 27);
+    color: white;
+    letter-spacing: 3px;
+}
